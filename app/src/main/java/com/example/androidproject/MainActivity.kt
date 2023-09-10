@@ -78,7 +78,9 @@ fun Profile(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Android Developer",
-            fontSize = 20.sp
+            fontSize = 20.sp,
+            color = Color(19, 175, 19, 255),
+            fontWeight = FontWeight.Bold
         )
     }
 }
